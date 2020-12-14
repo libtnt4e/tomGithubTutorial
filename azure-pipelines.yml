@@ -5,6 +5,10 @@
 
 trigger:
 - master
+resources:
+- repo: self
+variables:
+  tag: '$(Build.BuildId)'
 pool:
   vmImage: 'ubuntu-latest'
 steps:
