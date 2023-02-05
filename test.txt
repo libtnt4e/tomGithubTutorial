@@ -1,4 +1,0 @@
-Hi there, how are you?
-Hello from github1
-Hello from gitbub2
-Hello from gitbub3

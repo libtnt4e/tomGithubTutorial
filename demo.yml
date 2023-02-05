@@ -1,0 +1,6 @@
+#--test
+---
+- hosts: localhost
+  tasks:
+  - name: test
+  - debug: msg="hello world"

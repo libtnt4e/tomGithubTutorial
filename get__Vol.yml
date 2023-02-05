@@ -1,0 +1,6 @@
+#--get windows Volume
+---
+- hosts: localhost
+  tasks:
+  - name: gather windows facts
+    debug: msg="hello world"
